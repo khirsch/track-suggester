@@ -24,7 +24,8 @@ h1 {
 }
 
 #intro {
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 #survey {
@@ -39,6 +40,8 @@ h1 {
   padding: 10px;
 }
 #result-text {
+  display: block;
+  margin: auto;
   padding: 20px;
   background-color: #dedcd3;
 }
