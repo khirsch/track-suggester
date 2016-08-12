@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.1.0.js"></script>
     <script src="js/scripts.js"></script>
@@ -13,18 +13,40 @@
     <div id="survey">
       <form>
         <div class="form-group">
-          <label>Do you enjoy obsessing over layouts, navigation, colors, and design?</label>
+          <label for="name">First, let's get to know each other. What is your name?</label>
+          <input id="name" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="start-date">On what date did you begin your Epicodus journey?</label>
+          <input id="birthday" class="form-control" type="date">
+        </div>
+        <div class="form-group">
+          <label for="end-type">Do you enjoy obsessing over layouts, navigation, colors, and design?</label>
           <div class="radio">
-            <label>
-              <input type="radio" name="end-type" value="yes">Yes</label>
-            </label>
+            <label><input type="radio" name="end-type" value="yes">Yes!</label>
           </div>
           <div class="radio">
-            <label>
-              <input type="radio" name="end-type" value="no">No</label>
-            </label>
+            <label><input type="radio" name="end-type" value="no">No.</label>
           </div>
         </div>
+        <div class="form-group">
+          <label for="focus">Which of these options is most appealing to you?</label>
+          <select class="form-control" id="focus">
+            <option value="java">Developing applications for Android.</option>
+            <option value="ruby">Building interactive web applications.</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="software">Do you like the idea of developing business software for a larger company?</label>
+          <div class="radio">
+            <label><input type="radio" name="software" value="absolutely">Absolutely!</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="software" value="nope">Nope.</label>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-success" id="submit">Submit</button>
+        <button type="reset" class="btn" id="reset">Reset</button>
       </form>
     </div>
   </body>
