@@ -33,3 +33,7 @@ h1 {
   font-size: 18px;
   padding: 10px;
 }
+#result-text {
+  padding: 20px;
+  background-color: #AFAA95;
+}
