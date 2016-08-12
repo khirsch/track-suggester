@@ -35,23 +35,25 @@
           <select class="form-control" id="focus">
             <option value="java">Developing applications for Android.</option>
             <option value="ruby">Building interactive web applications.</option>
+            <option value="software">Engineering software for large companies.</option>
+            <option value="php">Creating sites for brands, organizations, etc.</option>
           </select>
         </div>
         <div class="form-group">
-          <label for="software">Do you like the idea of developing business software for a larger company?</label>
+          <label for="recommend">Lastly, would you recommend Epicodus to a friend?</label>
           <div class="radio">
-            <label><input type="radio" name="software" value="absolutely">Absolutely!</label>
+            <label><input type="radio" name="recommend" value="absolutely">Absolutely!</label>
           </div>
           <div class="radio">
-            <label><input type="radio" name="software" value="nope">Nope.</label>
+            <label><input type="radio" name="recommend" value="nope">Nope.</label>
           </div>
         </div>
         <button type="submit" class="btn btn-info" id="submit">Submit</button>
         <button type="reset" class="btn" id="reset">Reset</button>
       </form>
     </div>
-    <div id="suggestion">
-        <p><span id="name">, we suggest that you follow the <span id="track"> track. Best of luck to you on your coding adventure!</p>
+    <div id="result">
+        <p><span class="name"></span>, we suggest that you follow the <span class="track"></span> track.<br>Best of luck to you on your coding adventure!</p>
     </div>
   </body>
 </html>

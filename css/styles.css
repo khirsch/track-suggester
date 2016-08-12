@@ -25,7 +25,7 @@ p {
   margin-bottom: 15px;
 }
 
-#suggestion {
-  /*display:none;*/
+#result {
+  display:none;
   font-size: 20px;
 }
