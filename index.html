@@ -18,16 +18,16 @@
       <form>
         <div class="form-group">
           <label for="name">First, let's get to know each other. What is your name?</label>
-          <input id="name" class="form-control" type="text">
+          <input id="name" class="form-control" type="text" required="required">
         </div>
         <div class="form-group">
           <label for="start-date">On what date did you begin your Epicodus journey?</label>
-          <input id="birthday" class="form-control" type="date">
+          <input id="start-date" class="form-control" type="date" required="required">
         </div>
         <div class="form-group">
           <label for="end-type">Do you enjoy obsessing over layouts, navigation, colors, and design?</label>
           <div class="radio">
-            <label><input type="radio" name="end-type" value="yes">Yes!</label>
+            <label><input type="radio" name="end-type" value="yes" required="required">Yes!</label>
           </div>
           <div class="radio">
             <label><input type="radio" name="end-type" value="no">No.</label>
@@ -45,7 +45,7 @@
         <div class="form-group">
           <label for="recommend">Lastly, would you recommend Epicodus to a friend?</label>
           <div class="radio">
-            <label><input type="radio" name="recommend" value="absolutely">Absolutely!</label>
+            <label><input type="radio" name="recommend" value="absolutely" required="required">Absolutely!</label>
           </div>
           <div class="radio">
             <label><input type="radio" name="recommend" value="nope">Nope.</label>

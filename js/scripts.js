@@ -17,7 +17,7 @@ $(document).ready(function() {
     } else if ((endtypeInput==="no")&&(focusInput="php")) {
       $(".track").text("PHP/Drupal");
     } else {
-      console.log("something");
+      console.log("null");
     }
 
     $("#result").show();
