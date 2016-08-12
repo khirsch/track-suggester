@@ -1,8 +1,8 @@
 # Track Suggester #
 
-#### _An Epicodus survey, created on August 12th, 2016_
+#### An Epicodus survey, created on August 12th, 2016
 
-#### By Katrina Hirsch
+#### Written by Katrina Hirsch
 
 ## Description ##
 
