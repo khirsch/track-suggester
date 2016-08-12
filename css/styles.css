@@ -1,3 +1,31 @@
+body {
+  display: block;
+  margin: auto;
+  padding: 15px;
+  width: 815px;
+  height: auto;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bolder;
+}
+
+p {
+  text-align: center;
+}
+
+#survey {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
 #suggestion {
-  display:none;
+  /*display:none;*/
+  font-size: 20px;
 }
