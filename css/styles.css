@@ -28,6 +28,7 @@ h1 {
   width: 815px;
   height: auto;
   background-color: #ffffff;
+  border-radius: 25px;
 }
 
 #intro {
