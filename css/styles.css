@@ -1,8 +1,12 @@
+body {
+  background-color: #262029;
+}
+
 img {
   display: block;
   margin: auto;
-  padding-top: 15px;
-  text-align: center;
+  width: 100%;
+  height: auto;
 }
 
 h1 {
@@ -18,9 +22,12 @@ h1 {
 .container {
   display: block;
   margin: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
   padding: 15px;
   width: 815px;
   height: auto;
+  background-color: #ffffff;
 }
 
 #intro {
@@ -43,5 +50,5 @@ h1 {
   display: block;
   margin: auto;
   padding: 20px;
-  background-color: #dedcd3;
+  background-color: #fecf4d;
 }
