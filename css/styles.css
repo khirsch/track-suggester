@@ -22,8 +22,7 @@ h1 {
 .container {
   display: block;
   margin: auto;
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin-top: 10%;
   padding: 15px;
   width: 815px;
   height: auto;
